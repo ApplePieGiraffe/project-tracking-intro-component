@@ -1,0 +1,20 @@
+:root {
+    --color-red: hsl(0, 100%, 68%);
+    --color-very-dark-blue: hsl(230, 29%, 20%);
+    --color-dark-greyish-blue: hsl(230, 11%, 40%);
+    --color-greyish-blue: hsl(231, 7%, 65%);
+    --color-light-greyish-blue: hsl(207, 33%, 95%);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 50%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}

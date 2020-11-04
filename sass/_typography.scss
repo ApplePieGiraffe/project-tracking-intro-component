@@ -1,0 +1,89 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 2.25rem;
+}
+
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+// HEADER
+
+.header {
+    &__nav {
+        &__link {
+            color: var(--color-very-dark-blue);
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            &:hover {
+                color: var(--color-dark-greyish-blue);
+
+            }
+
+            @media only screen and (min-width: 800px) {
+                font-size: 2rem;
+            }
+
+            &--alt {
+                color: var(--color-greyish-blue);
+
+                &:hover {
+                    color: var(--color-dark-greyish-blue);
+                }
+            }
+        }
+    }
+}
+
+// MAIN
+
+.feature {
+    &__content-wrapper {
+        font-size: 2rem;
+    }
+
+    &__tag {
+        color: white;
+        font-family: 'Barlow Condensed', sans-serif;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        color: var(--color-greyish-blue);
+        font-family: 'Barlow Condensed', sans-serif;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+}
+
+.heading {
+    color: var(--color-very-dark-blue);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    @media only screen and (min-width: 800px) {
+        font-size: 7.75rem;
+        line-height: 8rem;
+    }
+}
+
+.subheading {
+    color: var(--color-dark-greyish-blue);
+    line-height: 3rem;
+}
+
+.btn-description {
+    color: var(--color-greyish-blue);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.75rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    @media only screen and (min-width: 800px) {
+        font-size: 2rem;
+    }
+}
